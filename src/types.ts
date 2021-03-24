@@ -4,6 +4,8 @@ export interface Product {
   price: number;
   image: string;
   amount: number;
+  priceFormatted: string;
+  subTotal: string;
 }
 
 export interface Stock {
